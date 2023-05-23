@@ -1,0 +1,82 @@
+---
+sidebar: sidebar 
+permalink: task-manage-subscriptions.html 
+keywords: digital wallet, subscriptions, paygo subscriptions, contracts, annual contracts 
+summary: 'Quando ti iscrivi a BlueXP dal marketplace di un provider cloud, verrai reindirizzato al sito Web BlueXP, dove dovrai salvare l"abbonamento e associarlo a account specifici. Dopo aver effettuato l"iscrizione, ogni abbonamento sarà disponibile per la gestione dal portafoglio digitale BlueXP.' 
+---
+= Gestisci abbonamenti E contratti PAYGO
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Quando ti iscrivi a BlueXP dal marketplace di un provider cloud, verrai reindirizzato al sito Web BlueXP, dove dovrai salvare l'abbonamento e associarlo a account specifici. Dopo aver effettuato l'iscrizione, ogni abbonamento sarà disponibile per la gestione dal portafoglio digitale BlueXP.
+
+
+
+== Visualizza gli abbonamenti
+
+Il portafoglio digitale BlueXP fornisce informazioni dettagliate su ciascun abbonamento PAYGO e contratto annuale associato al tuo account BlueXP e ad Astra Control (Astra Control utilizza il servizio di addebito BlueXP).
+
+Per Google Cloud, puoi anche identificare gli abbonamenti al mercato associati a un'offerta privata, che ti consente di verificare che l'offerta sia stata accettata correttamente.
+
+.Fasi
+. Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
+. Selezionare *Abbonamenti*.
++
+Verranno visualizzati solo gli abbonamenti associati all'account attualmente visualizzato.
+
+. Durante la visualizzazione delle informazioni relative alle sottoscrizioni, è possibile interagire con i dettagli della tabella come segue:
++
+** Espandere una riga per visualizzare ulteriori dettagli.
++
+image:screenshot-subscriptions-expand.png["Una schermata della scheda Subscriptions (Abbonamenti) nel portafoglio digitale in cui è possibile selezionare la freccia alla fine di una riga per espanderla."]
+
+** Selezionare image:icon-column-selector.png["l'icona più alla fine dell'intestazione della tabella"] per scegliere quali colonne visualizzare nella tabella.
++
+Si noti che le colonne Term (termine) e Auto Renew (Rinnova automaticamente) non vengono visualizzate per impostazione predefinita. La colonna Auto Renew (rinnovo automatico) visualizza le informazioni di rinnovo solo per i contratti Azure.
+
+
+
++
+Tenere presente quanto segue in relazione a quanto visualizzato nella tabella:
+
++
+Data di inizio:: La data di inizio è la data in cui l'abbonamento è stato associato correttamente all'account e l'addebito è iniziato.
+N/A.:: Se nella tabella viene visualizzato N/D, al momento le informazioni non sono disponibili dall'API del provider di cloud.
+Termine:: Se il tuo abbonamento a Google Cloud è associato a un'offerta privata e tale offerta privata è stata modificata dopo che è stata creata e accettata, il termine indica N/A. In questo scenario, la risposta API che riceviamo da Google Cloud Marketplace non include informazioni relative ai termini.
+Contratti::
++
+--
+** Se si espandono i dettagli di un contratto, il portafoglio digitale BlueXP mostra ciò che è disponibile per il piano corrente: Le opzioni e le unità del contratto (capacità o numero di nodi).
+** Il portafoglio digitale BlueXP identifica la data di fine e indica se il contratto verrà rinnovato a breve, a breve o se è già terminato.
+** Se si dispone di un contratto AWS ed è stata modificata una delle opzioni del contratto dopo la data di inizio, assicurarsi di convalidare le opzioni del contratto da AWS Marketplace.
+** Se disponi di un'offerta privata Google Cloud, le opzioni di contratto non sono disponibili.
+
+
+--
+
+
+
+
+
+
+== Gestisci le tue sottoscrizioni
+
+Puoi gestire gli abbonamenti dal portafoglio digitale BlueXP rinominando un abbonamento e scegliendo gli account associati all'abbonamento.
+
+Ad esempio, supponiamo di avere due account e di fatturarvi ciascuno tramite abbonamenti separati. Potresti disassociare un abbonamento da uno degli account in modo che gli utenti di quell'account non scelgano accidentalmente l'abbonamento sbagliato quando crei un ambiente di lavoro Cloud Volumes ONTAP.
+
+.Fasi
+. Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
+. Selezionare *Abbonamenti*.
+. Selezionare il menu delle azioni nella riga corrispondente all'abbonamento che si desidera gestire.
++
+image:screenshot-subscription-menu.png["Schermata del menu delle azioni per un abbonamento."]
+
+. Scegliere di rinominare l'abbonamento o di gestire gli account BlueXP associati all'abbonamento.
+
