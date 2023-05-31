@@ -10,7 +10,7 @@ summary: Gestisci le tue licenze basate su nodo nel portafoglio digitale per ass
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/
+:imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
 
 [role="lead"]
@@ -24,7 +24,7 @@ Le _licenze basate su nodo_ sono il modello di licenza della generazione precede
 
 Il _portafoglio digitale BlueXP_ consente di gestire le licenze per Cloud Volumes ONTAP da un'unica postazione. È possibile aggiungere nuove licenze e aggiornare quelle esistenti.
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["Scopri di più sulle licenze Cloud Volumes ONTAP"].
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Scopri di più sulle licenze Cloud Volumes ONTAP"].
 
 
 
@@ -224,10 +224,10 @@ La conversione di un sistema da UNA licenza PAYGO per nodo a una licenza BYOL pe
 . Creare un nuovo ambiente di lavoro Cloud Volumes ONTAP.
 . Impostare una replica dei dati una tantum tra i sistemi per ciascun volume da replicare.
 +
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["Scopri come replicare i dati tra sistemi"^]
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Scopri come replicare i dati tra sistemi"^]
 
 . Terminare il sistema Cloud Volumes ONTAP non più necessario eliminando l'ambiente di lavoro originale.
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deleting-working-env.html["Scopri come eliminare un ambiente di lavoro Cloud Volumes ONTAP"].
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deleting-working-env.html["Scopri come eliminare un ambiente di lavoro Cloud Volumes ONTAP"].
 
 

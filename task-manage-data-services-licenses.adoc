@@ -10,7 +10,7 @@ summary: 'Il portafoglio digitale BlueXP consente di gestire le licenze acquista
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/cloud-manager-backup-restore/media/
+:imagesdir: https://docs.netapp.com/us-en/bluexp-backup-recovery/media/
 
 
 [role="lead"]
@@ -18,9 +18,9 @@ Il portafoglio digitale BlueXP consente di gestire le licenze acquistate diretta
 
 Le istruzioni riportate in questa pagina forniscono informazioni relative a ciascun servizio. Per informazioni più specifiche sulle licenze per questi servizi, fare riferimento alle seguenti pagine:
 
-* https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-backup.html["Impostare le licenze per il backup e ripristino BlueXP"^]
-* https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html["Impostare la licenza per la classificazione BlueXP"^]
-* https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering.html["Impostare le licenze per il tiering BlueXP"^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-licensing-cloud-backup.html["Impostare le licenze per il backup e ripristino BlueXP"^]
+* https://docs.netapp.com/us-en/bluexp-classification/task-licensing-datasense.html["Impostare la licenza per la classificazione BlueXP"^]
+* https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["Impostare le licenze per il tiering BlueXP"^]
 
 
 
@@ -58,7 +58,7 @@ Dopo aver acquistato una licenza per un servizio dati BlueXP, è necessario aggi
 +
 ** Se si dispone del numero di serie e si conosce l'account NSS, selezionare l'opzione *inserire il numero di serie* e immettere tali informazioni.
 +
-Se il tuo account NetApp Support Site non è disponibile nell'elenco a discesa, https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["Aggiungere l'account NSS a BlueXP"^]
+Se il tuo account NetApp Support Site non è disponibile nell'elenco a discesa, https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Aggiungere l'account NSS a BlueXP"^]
 
 ** Se si dispone del file di licenza (richiesto quando si utilizza BlueXP in modalità privata), selezionare l'opzione *Upload License file* (carica file di licenza) e seguire le istruzioni per allegare il file.
 +

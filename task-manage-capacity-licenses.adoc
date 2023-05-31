@@ -10,7 +10,7 @@ summary: Gestisci le tue licenze basate sulla capacità dal portafoglio digitale
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/
+:imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
 
 [role="lead"]
@@ -20,7 +20,7 @@ Le _licenze basate sulla capacità_ consentono di pagare Cloud Volumes ONTAP per
 
 Il _portafoglio digitale BlueXP_ consente di gestire le licenze per Cloud Volumes ONTAP da un'unica postazione. È possibile aggiungere nuove licenze e aggiornare quelle esistenti.
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["Scopri di più sulle licenze Cloud Volumes ONTAP"].
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Scopri di più sulle licenze Cloud Volumes ONTAP"].
 
 
 
@@ -58,7 +58,7 @@ image:screenshot_capacity-based-licenses.png["Una schermata che mostra un riepil
 +
 ** _Capacità consumata_ mostra la capacità dei volumi per quel pacchetto. Per ulteriori informazioni su un pacchetto specifico, passare il mouse sulla descrizione del comando.
 +
-Per comprendere meglio le capacità visualizzate per il pacchetto Essentials, è necessario conoscere il funzionamento della ricarica. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#notes-about-charging["Scopri come ricaricare il pacchetto Essentials"].
+Per comprendere meglio le capacità visualizzate per il pacchetto Essentials, è necessario conoscere il funzionamento della ricarica. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#notes-about-charging["Scopri come ricaricare il pacchetto Essentials"].
 
 ** _Capacità consigliata_ è la capacità concessa in licenza (BYOL o Marketplace Contract) acquistata da NetApp.
 +
@@ -152,7 +152,7 @@ Se le licenze acquistate non vengono visualizzate nel portafoglio digitale BlueX
 
 .Di cosa hai bisogno
 * È necessario fornire a BlueXP il numero di serie della licenza o del file di licenza.
-* Se si desidera inserire il numero di serie, è necessario prima https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["Aggiungi il tuo account NetApp Support Site a BlueXP"^]. Si tratta dell'account NetApp Support Site autorizzato ad accedere al numero di serie.
+* Se si desidera inserire il numero di serie, è necessario prima https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Aggiungi il tuo account NetApp Support Site a BlueXP"^]. Si tratta dell'account NetApp Support Site autorizzato ad accedere al numero di serie.
 
 
 .Fasi
