@@ -30,18 +30,18 @@ Le istruzioni riportate in questa pagina forniscono informazioni relative a cias
 Dopo aver acquistato una licenza, è possibile attivare la licenza in BlueXP inserendo il numero di serie e l'account NSS oppure caricando il file di licenza NetApp (NLF). Se si prevede di utilizzare questo metodo, la procedura riportata di seguito mostra come ottenere il file di licenza NLF.
 
 .Fasi
-. Accedere a https://mysupport.netapp.com["Sito di supporto NetApp"^] E fare clic su *sistemi > licenze software*.
+. Accedere a https://mysupport.netapp.com["Sito di supporto NetApp"^] E selezionare *sistemi > licenze software*.
 . Inserire il numero di serie della licenza.
 +
 image:screenshot_cloud_backup_license_step1.gif["Una schermata che mostra una tabella di licenze dopo la ricerca per numero di serie."]
 
-. Nella colonna *chiave di licenza*, fare clic su *Ottieni file di licenza NetApp*.
-. Inserire l'ID account BlueXP (chiamato ID tenant sul sito di supporto) e fare clic su *Submit* (Invia) per scaricare il file di licenza.
+. Nella colonna *chiave di licenza*, selezionare *Ottieni file di licenza NetApp*.
+. Inserire l'ID account BlueXP (chiamato ID tenant sul sito di supporto) e selezionare *Submit* (Invia) per scaricare il file di licenza.
 +
-image:screenshot_cloud_backup_license_step2.gif["Una schermata che mostra la finestra di dialogo Get License (Ottieni licenza) in cui inserire l'ID tenant e fare clic su Submit (Invia) per scaricare il file di licenza."]
+image:screenshot_cloud_backup_license_step2.gif["Una schermata che mostra la finestra di dialogo Get License (Ottieni licenza) in cui inserire l'ID tenant e selezionare Submit (Invia) per scaricare il file di licenza."]
 
 +
-Puoi trovare il tuo ID account BlueXP selezionando l'elenco a discesa *account* nella parte superiore di BlueXP, quindi facendo clic su *Gestisci account* accanto all'account. L'ID account si trova nella scheda Panoramica.
+Puoi trovare il tuo ID account BlueXP selezionando l'elenco a discesa *account* nella parte superiore di BlueXP, quindi selezionando *Gestisci account* accanto al tuo account. L'ID account si trova nella scheda Panoramica.
 
 
 
@@ -52,9 +52,9 @@ Puoi trovare il tuo ID account BlueXP selezionando l'elenco a discesa *account* 
 Dopo aver acquistato una licenza per un servizio dati BlueXP, è necessario aggiungere la licenza a BlueXP.
 
 .Fasi
-. Dal menu BlueXP, fare clic su *Governance > Digital wallet*, quindi selezionare la scheda *licenze servizi dati*.
-. Fare clic su *Aggiungi licenza*.
-. Nella finestra di dialogo _Add License_, inserire le informazioni sulla licenza e fare clic su *Add License*:
+. Dal menu BlueXP, selezionare *Governance > Digital wallet*, quindi selezionare la scheda *licenze servizi dati*.
+. Selezionare *Aggiungi licenza*.
+. Nella finestra di dialogo _Add License_, inserire le informazioni sulla licenza e selezionare *Add License*:
 +
 ** Se si dispone del numero di serie e si conosce l'account NSS, selezionare l'opzione *inserire il numero di serie* e immettere tali informazioni.
 +
@@ -80,18 +80,18 @@ Se la durata della licenza è prossima alla data di scadenza, o se la capacità 
 image:screenshot_services_license_expire.png["Una schermata che mostra una licenza in scadenza nella pagina Digital Wallet."]
 
 .Fasi
-. Fare clic sull'icona della chat nell'angolo inferiore destro di BlueXP o contattare il supporto per richiedere un'estensione del termine o una capacità aggiuntiva della licenza per il numero di serie specifico.
+. Selezionare l'icona della chat nell'angolo inferiore destro di BlueXP o contattare il supporto per richiedere un'estensione del termine o una capacità aggiuntiva della licenza per il numero di serie specifico.
 +
 Dopo aver pagato la licenza e averla registrata nel NetApp Support Site, BlueXP aggiorna automaticamente la licenza nel portafoglio digitale e la pagina delle licenze dei servizi dati rifletterà la modifica tra 5 e 10 minuti.
 
 . Se BlueXP non riesce ad aggiornare automaticamente la licenza (ad esempio, quando si utilizza BlueXP in modalità privata), sarà necessario caricare manualmente il file di licenza.
 +
 .. È possibile <<Ottenere un file di licenza,Ottenere il file di licenza dal NetApp Support Site>>.
-.. Nella scheda _licenze servizi dati_, fare clic su image:screenshot_horizontal_more_button.gif["Icona Altro"] Per il numero di serie del servizio che si sta aggiornando, fare clic su *Aggiorna licenza*.
+.. Nella scheda _licenze servizi dati_, selezionare image:screenshot_horizontal_more_button.gif["Icona Altro"] Per il numero di serie del servizio che si sta aggiornando, quindi selezionare *Aggiorna licenza*.
 +
 image:screenshot_services_license_update1.png["Schermata che mostra la selezione del pulsante Update License (Aggiorna licenza) per un determinato servizio."]
 
-.. Nella pagina _Update License_, caricare il file di licenza e fare clic su *Update License* (Aggiorna licenza).
+.. Nella pagina _Update License_, caricare il file di licenza e selezionare *Update License* (Aggiorna licenza).
 
 
 
