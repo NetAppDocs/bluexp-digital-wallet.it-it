@@ -34,7 +34,7 @@ Sono ora disponibili diversi miglioramenti ai report sull'utilizzo di Cloud Volu
 * Il tipo di volume _secondario_ è ora denominato _secondario (DP)_.
 
 
-Per ulteriori informazioni sui report sull'utilizzo, fare riferimento a. https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html#download-usage-reports["Scarica i report sull'utilizzo"^]
+Per ulteriori informazioni sui report sull'utilizzo, fare riferimento a. https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["Scarica i report sull'utilizzo"].
 
 
 
@@ -58,7 +58,7 @@ Ora puoi scoprire cosa ti verrà addebitato quando sei iscritto a licenze basate
 * Utilizzo dei volumi
 
 
-Per ulteriori informazioni, vedere link:https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html["Gestione delle licenze basate sulla capacità"].
+Per ulteriori informazioni sui report sull'utilizzo, fare riferimento a. https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["Scarica i report sull'utilizzo"].
 
 
 
