@@ -80,7 +80,6 @@
   <block id="baf09c6c43fd26effd8f15e252649384" category="list-text">Capacità PAYGO totale</block>
   <block id="76101a2de96d735db21249323914bc6c" category="list-text">*Utilizzo del pacchetto Cloud Volumes ONTAP*: Questo report mostra esattamente ciò che è riportato sulle schede delle confezioni nel portafoglio digitale. Include le seguenti informazioni per ciascun pacchetto, ad eccezione del pacchetto i/o ottimizzato:</block>
   <block id="c01bbdbe6721d80a74779e943243486b" category="list-text">*Utilizzo delle VM di storage*: Questo report mostra come viene suddivisa la capacità di carico tra i sistemi Cloud Volumes ONTAP e le macchine virtuali di storage (SVM). Queste informazioni non sono disponibili su nessuna schermata del portafoglio digitale. Include le seguenti informazioni:</block>
-  <block id="b16bfcaa9b0651f05b8e8894a2aebb31" category="list-text">ID ambiente di lavoro (visualizzato come UUID)</block>
   <block id="c8e2277ecfb1427838c488c217f99466" category="list-text">Cloud</block>
   <block id="4736cd35bf5b3fe63e1b1785fb2aa664" category="list-text">ID account NetApp</block>
   <block id="bbfa34e8af02138b821f784c8962669b" category="list-text">Configurazione dell'ambiente di lavoro</block>
@@ -599,4 +598,16 @@
   <block id="093ebe6e7f093a5d0ba33d387ce15bd0" category="list-text">Per visualizzare ulteriori dettagli, selezionare <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> per espandere le informazioni del cluster.</block>
   <block id="dd7c2502d7fdbd07b536ab7c70be2609" category="list-text">Selezionare *Discover* per il cluster che si desidera gestire tramite BlueXP.</block>
   <block id="65fd12713cafdbaee90c518b8e719b8a" category="list-text">Nella pagina _Discover ONTAP cluster_, inserire la password per l'account utente admin e selezionare *Discover*.</block>
+  <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">30 luglio 2023</block>
+  <block id="ee4272223579f1299444d14f2d185eb5" category="section-title">Miglioramenti dei report sull'utilizzo</block>
+  <block id="c1ab40aac4724ff5a3b9540c19eed579" category="paragraph">Sono ora disponibili diversi miglioramenti ai report sull'utilizzo di Cloud Volumes ONTAP:</block>
+  <block id="4c63050f1e33aa32db50cc80b682e805" category="list-text">L'unità TIB è ora inclusa nel nome delle colonne.</block>
+  <block id="c352c835cf612ee328fb7dba772bce4d" category="list-text">È ora incluso un nuovo campo _node(s)_ per i numeri di serie.</block>
+  <block id="f949b800c66bf942c10c1e2b5847f5cf" category="list-text">Una nuova colonna _workload Type_ è ora inclusa nel report sull'utilizzo delle VM di storage.</block>
+  <block id="9f02e3f417792785e27aead6a388ce7b" category="list-text">I nomi degli ambienti di lavoro sono ora inclusi nei report sull'utilizzo delle VM di storage e dei volumi.</block>
+  <block id="001f2392fde5e9977a349af817fa07e9" category="list-text">Il tipo di volume _file_ è ora denominato _Primary (Read/Write)_.</block>
+  <block id="af30dca925032347d49fd49d710f0164" category="list-text">Il tipo di volume _secondario_ è ora denominato _secondario (DP)_.</block>
+  <block id="2bb2d72e1ff09fcf49ad52f3b153b014" category="paragraph">Per ulteriori informazioni sui report sull'utilizzo, fare riferimento a.<block ref="8b82f3e29419f7f039b88f8e9f60bf47" category="inline-link-rx"></block></block>
+  <block id="4a9ebfe4f0e3302083955176f47a9519" category="list-text">ID e nome dell'ambiente di lavoro (visualizzato come UUID)</block>
+  <block id="427af860f9733f0c5427a1408195bb2b" category="list-text">Tipo di carico di lavoro</block>
 </blocks>

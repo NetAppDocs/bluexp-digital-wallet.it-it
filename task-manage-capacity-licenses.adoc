@@ -107,7 +107,7 @@ I seguenti report sono disponibili per il download. I valori di capacità mostra
 
 * *Utilizzo delle VM di storage*: Questo report mostra come viene suddivisa la capacità di carico tra i sistemi Cloud Volumes ONTAP e le macchine virtuali di storage (SVM). Queste informazioni non sono disponibili su nessuna schermata del portafoglio digitale. Include le seguenti informazioni:
 +
-** ID ambiente di lavoro (visualizzato come UUID)
+** ID e nome dell'ambiente di lavoro (visualizzato come UUID)
 ** Cloud
 ** ID account NetApp
 ** Configurazione dell'ambiente di lavoro
@@ -118,11 +118,12 @@ I seguenti report sono disponibili per il download. I valori di capacità mostra
 ** Pacchetto o funzione Cloud Volumes ONTAP
 ** Addebito del nome dell'abbonamento a SaaS Marketplace
 ** Addebito dell'ID di abbonamento SaaS Marketplace
+** Tipo di carico di lavoro
 
 
 * *Utilizzo dei volumi*: Questo report mostra come la capacità caricata viene suddivisa per volumi in un ambiente di lavoro. Queste informazioni non sono disponibili su nessuna schermata del portafoglio digitale. Include le seguenti informazioni:
 +
-** ID ambiente di lavoro (visualizzato come UUID)
+** ID e nome dell'ambiente di lavoro (visualizzato come UUID)
 ** Nome SVN
 ** ID volume
 ** Tipo di volume
