@@ -13,7 +13,7 @@ summary: Gestisci le tue licenze basate su nodo nel portafoglio digitale per ass
 :imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
 
-[role="lead"]
+[role="lead lead"]
 Gestire le licenze basate su nodo nel portafoglio digitale BlueXP per garantire che ogni sistema Cloud Volumes ONTAP disponga di una licenza valida con la capacità richiesta.
 
 Le _licenze basate su nodo_ sono il modello di licenza della generazione precedente (e non sono disponibili per i nuovi clienti):

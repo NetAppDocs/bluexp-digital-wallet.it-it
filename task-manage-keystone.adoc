@@ -13,7 +13,7 @@ summary: 'Gestisci i servizi di abbonamento Keystone dal portafoglio digitale ab
 :imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
 
-[role="lead"]
+[role="lead lead"]
 Gestisci gli abbonamenti Keystone dal portafoglio digitale BlueXP abilitando gli abbonamenti per l'utilizzo con Cloud Volumes ONTAP. È inoltre possibile richiedere modifiche alla capacità impegnata e scollegare gli abbonamenti.
 
 Un _abbonamento Keystone_ è un servizio di storage pay-as-you-grow offerto da NetApp.
