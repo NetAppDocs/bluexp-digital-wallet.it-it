@@ -16,6 +16,10 @@ summary: 'Quando ti iscrivi a BlueXP dal marketplace di un provider cloud, verra
 [role="lead"]
 Quando ti iscrivi a BlueXP dal marketplace di un provider cloud, verrai reindirizzato al sito Web BlueXP, dove dovrai salvare l'abbonamento e associarlo a account specifici. Dopo aver effettuato l'iscrizione, ogni abbonamento sarà disponibile per la gestione dal portafoglio digitale BlueXP.
 
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html["Scopri come iscriverti a BlueXP (modalità standard)"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html["Scopri come iscriverti a BlueXP (modalità limitata)"^]
+
+
 
 
 == Visualizza gli abbonamenti

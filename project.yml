@@ -13,7 +13,9 @@ sidebar:
   - title: Documenti del portafoglio digitale BlueXP
     url: "/index.html"
   - title: Note di rilascio
-    url: "/whats-new.html"
+    entries:
+    - title: Novità
+      url: "/whats-new.html"
   - title: Inizia subito
     entries:
     - title: Scopri di più sul portafoglio digitale BlueXP
@@ -30,7 +32,7 @@ sidebar:
       url: "/task-manage-data-services-licenses.html"
     - title: Gestisci abbonamenti E contratti PAYGO
       url: "/task-manage-subscriptions.html"
-    - title: Gestire i servizi di abbonamento Keystone
+    - title: Gestire gli abbonamenti Keystone
       url: "/task-manage-keystone.html"
     - title: Gestione delle licenze per cluster ONTAP on-premise
       url: "/task-manage-on-prem-clusters.html"

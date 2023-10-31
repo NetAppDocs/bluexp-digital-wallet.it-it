@@ -269,29 +269,20 @@
   <block id="d5ce756f503ae6211b9ef6c827e757be" category="section-title">I termini di licenza si aggiornano automaticamente</block>
   <block id="ccb04438d71ca79f2a97704ba47b5adf" category="paragraph">Se si modifica la capacità o il termine di una delle licenze, i termini della licenza vengono aggiornati automaticamente in . Non è necessario aggiornare manualmente la licenza.</block>
   <block id="b2d68f8e07e0e6ca8d81ba9d15e96e7e" category="paragraph">L'aggiornamento automatico delle licenze funziona con tutti i tipi di licenze Cloud Volumes ONTAP e con tutte le licenze per i servizi dati.</block>
-  <block id="e29dbbc5408d2fe6da0ae9249031fad5" category="summary">Gestisci i servizi di abbonamento Keystone dal portafoglio digitale abilitando gli abbonamenti per l'utilizzo con Cloud Volumes ONTAP. È inoltre possibile richiedere modifiche alla capacità impegnata e scollegare gli abbonamenti.</block>
-  <block id="8cd29d21eeca72789ed2e573a1032dbd" category="doc">Gestire i servizi di abbonamento Keystone</block>
-  <block id="16c141e06e5f6ba408b4992a97c8b45f" category="paragraph">Gestisci gli abbonamenti Keystone dal portafoglio digitale BlueXP abilitando gli abbonamenti per l'utilizzo con Cloud Volumes ONTAP. È inoltre possibile richiedere modifiche alla capacità impegnata e scollegare gli abbonamenti.</block>
-  <block id="a99a383ab90c9f21375613d8a38ea1c8" category="paragraph">Un _abbonamento Keystone_ è un servizio di storage pay-as-you-grow offerto da NetApp.</block>
   <block id="4edb70089cdbc18de22fa9ead5189bc8" category="section-title">Autorizzare l'account</block>
-  <block id="ef32689f1a32fe16e0893f8394486cba" category="paragraph">Prima di poter utilizzare e gestire gli abbonamenti Keystone in BlueXP, è necessario contattare NetApp per autorizzare l'account utente BlueXP con gli abbonamenti Keystone.</block>
   <block id="492847bcbc9ec0bd3075b612aa43e4a7" category="list-text">Selezionare *Keystone*.</block>
   <block id="daf4ae396784c74ec2cbf002eaaa25f4" category="list-text">Se viene visualizzata la pagina *Benvenuti in NetApp Keystone*, inviare un'e-mail all'indirizzo indicato nella pagina.</block>
   <block id="16692c26ca4528e651bbb36d93c465c7" category="paragraph">Un rappresentante NetApp elaborerà la tua richiesta autorizzando il tuo account utente ad accedere alle sottoscrizioni.</block>
   <block id="5da6315cfe65abaef2d0e00c90898ddc" category="list-text">Torna all'abbonamento *Keystone* per visualizzare i tuoi abbonamenti.</block>
   <block id="3d6aabe991edb10f282fd60995e725ca" category="inline-image-macro">Una schermata che mostra un elenco degli abbonamenti Keystone.</block>
   <block id="6fd94fda3665b39867817d4700d184e8" category="paragraph"><block ref="6fd94fda3665b39867817d4700d184e8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">Quali sono le prossime novità?</block>
-  <block id="18dea2097f201a1ab3eb6d3305d42f0a" category="paragraph">Collegare gli abbonamenti che si desidera utilizzare con Cloud Volumes ONTAP.</block>
   <block id="06f358c39bc3b4633cefd78beb67e671" category="section-title">Collegare un abbonamento</block>
-  <block id="b10dd47ec29edab7ffa21c2337ac7f5f" category="paragraph">Dopo che NetApp ha autorizzato il tuo account, devi collegare gli abbonamenti Keystone per l'utilizzo con Cloud Volumes ONTAP. Questa azione consente agli utenti di selezionare l'abbonamento come metodo di addebito per i nuovi sistemi Cloud Volumes ONTAP.</block>
   <block id="b0afff19aa3343a6f86619d833dbd316" category="inline-image-macro">Un'icona con tre punti affiancati</block>
   <block id="fc6ada65ff8f08c80e7d6167f68c89c2" category="list-text">Per l'abbonamento che si desidera collegare, fare clic su <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> E selezionare *link*.</block>
   <block id="a71102951bc0488f4ec3cb5e52602100" category="inline-image-macro">Una schermata che mostra l'opzione di collegamento per un abbonamento.</block>
   <block id="53dd6d03631eca7d8e89d0d7d8cdeb77" category="paragraph"><block ref="53dd6d03631eca7d8e89d0d7d8cdeb77" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c01bba3f5cf220440d62298c4287d655" category="paragraph">L'abbonamento è ora collegato al tuo account BlueXP e disponibile per la selezione durante la creazione di un ambiente di lavoro Cloud Volumes ONTAP.</block>
   <block id="1b02ed65c5ea56c85fffa6b88378d762" category="section-title">Richiedere una capacità impegnata maggiore o minore</block>
-  <block id="51865ab5b1a727fd7b6804d74e80a1cd" category="paragraph">Se è necessario regolare la capacità impegnata per un abbonamento, è possibile inviare una richiesta direttamente dall'interfaccia BlueXP.</block>
   <block id="a2748c51966db7db689a8801f6ae4150" category="list-text">Per l'abbonamento che si desidera regolare la capacità, fare clic su <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> E selezionare *Visualizza dettagli e modifica*.</block>
   <block id="56ecf988dec174f4d23028e78eeed82c" category="list-text">Immettere la capacità impegnata richiesta per uno o più abbonamenti.</block>
   <block id="b21f9c14aa5cab57ac732dac504b7b63" category="inline-image-macro">Una schermata che mostra la possibilità di richiedere una modifica della capacità impegnata per un abbonamento.</block>
@@ -299,7 +290,6 @@
   <block id="dbae9df22f08344d5508b91cb73c6d15" category="list-text">Scorrere verso il basso, inserire eventuali dettagli aggiuntivi per la richiesta, quindi fare clic su *Invia*.</block>
   <block id="8f140d9c4d508c36e3d4c57102f117eb" category="paragraph">La richiesta crea un ticket nel sistema NetApp per l'elaborazione.</block>
   <block id="0c0401d1e9169d6dd38462b1e0d04126" category="section-title">Scollegare un abbonamento</block>
-  <block id="7ec05ce6a514daa78763d92fa399d1b0" category="paragraph">Se non desideri più utilizzare un abbonamento Keystone con i nuovi sistemi Cloud Volumes ONTAP, puoi scollegare l'abbonamento. Nota: Puoi scollegare solo un abbonamento non allegato a un abbonamento Cloud Volumes ONTAP esistente.</block>
   <block id="a666a430e484ea214384aefaa30da852" category="list-text">Per l'abbonamento che si desidera scollegare, fare clic su <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> E selezionare *Unlink*.</block>
   <block id="ae187bda8f85dfd75202915fcca6b90d" category="paragraph">L'abbonamento non è collegato all'account BlueXP e non è più disponibile per la selezione durante la creazione di un ambiente di lavoro Cloud Volumes ONTAP.</block>
   <block id="682e041ff00069faf1e43f1e418221a6" category="summary">Quando ti iscrivi a BlueXP dal marketplace di un provider cloud, verrai reindirizzato al sito Web BlueXP, dove dovrai salvare l'abbonamento e associarlo a account specifici. Dopo aver effettuato l'iscrizione, ogni abbonamento sarà disponibile per la gestione dal portafoglio digitale BlueXP.</block>
@@ -614,4 +604,22 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">Ottieni supporto per un file service del cloud provider</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">Per supporto tecnico relativo a un file service di un cloud provider, alla sua infrastruttura o a una soluzione che utilizza il servizio, fare riferimento a "Guida in linea" nella documentazione BlueXP relativa a quel prodotto.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">Per ricevere supporto tecnico specifico di BlueXP e delle relative soluzioni e servizi storage, utilizza le opzioni di supporto descritte di seguito.</block>
+  <block id="3982145b9641373c27bb8d4756883699" category="inline-link">Scopri come iscriverti a BlueXP (modalità standard)</block>
+  <block id="7f5bf22f42b3df7661bb90a8ee910f75" category="list-text"><block ref="7f5bf22f42b3df7661bb90a8ee910f75" category="inline-link-rx"></block></block>
+  <block id="7d546f7fc3c445881a171d5c7ee674c2" category="inline-link">Scopri come iscriverti a BlueXP (modalità limitata)</block>
+  <block id="69dd33041899bf8cb4fdb69e6f455142" category="list-text"><block ref="69dd33041899bf8cb4fdb69e6f455142" category="inline-link-rx"></block></block>
+  <block id="c27b8e6a4f797d237583ca6d38a92cd6" category="summary">Gestisci le tue iscrizioni Keystone dal Digital Wallet di BlueXP abilitando le iscrizioni per l'utilizzo con Cloud Volumes ONTAP e richiedendo modifiche alla capacità sottoposta a commit per i livelli di servizio della tua iscrizione. La richiesta di capacità aggiuntiva per un livello di servizio offre più storage per i cluster ONTAP on-premise o per i sistemi Cloud Volumes ONTAP.</block>
+  <block id="52ba144dbaac8239e9b6d8e287db93dc" category="doc">Gestire gli abbonamenti Keystone</block>
+  <block id="a3b1d6e06d4fd8ccc20c61ce51e45853" category="paragraph">NetApp Keystone è un servizio flessibile basato su abbonamento pay-as-you-grow che offre un'esperienza di cloud ibrido per i clienti che preferiscono OPEX a CAPEX o leasing.</block>
+  <block id="8635fd9dae0faf14591abf5c00ba4c36" category="inline-link">Scopri di più su Keystone</block>
+  <block id="d9e1f569a60d13d4540b611846d761f5" category="paragraph"><block ref="d9e1f569a60d13d4540b611846d761f5" category="inline-link-rx"></block></block>
+  <block id="79554ac40a8f3a03c9aaedab34165bd3" category="paragraph">Prima di poter utilizzare e gestire le iscrizioni Keystone in BlueXP, devi contattare NetApp per autorizzare il tuo account utente BlueXP alle iscrizioni Keystone.</block>
+  <block id="8afaab6946e4a914b70539d7502e26ac" category="paragraph">Dopo che NetApp ha autorizzato il tuo account, puoi collegare le iscrizioni Keystone per l'utilizzo con Cloud Volumes ONTAP. Questa azione consente agli utenti di selezionare l'abbonamento come metodo di addebito per i nuovi sistemi Cloud Volumes ONTAP.</block>
+  <block id="6659aa983422f26fe41e5bcc67fa8466" category="paragraph">Per modificare la capacità sottoposta a commit per i livelli di servizio della tua iscrizione, puoi inviare una richiesta a NetApp direttamente da BlueXP. La richiesta di capacità aggiuntiva per un livello di servizio offre più storage per i cluster on-premise o per i sistemi Cloud Volumes ONTAP.</block>
+  <block id="ec6e0d1bd46f010ced65478c609b1636" category="section-title">Monitoraggio dell'utilizzo</block>
+  <block id="4bb37917188b518967d0e67a2b819327" category="paragraph">La dashboard del Digital Advisor di BlueXP ti permette di monitorare l'utilizzo dell'abbonamento Keystone e di generare report.</block>
+  <block id="20ea4c62f4c9e4254314fe7fbbef0319" category="inline-link">Ulteriori informazioni sul monitoraggio dell'utilizzo degli abbonamenti</block>
+  <block id="d7105dd212dc96a8b292b6b48f84916f" category="paragraph"><block ref="d7105dd212dc96a8b292b6b48f84916f" category="inline-link-rx"></block></block>
+  <block id="28ca5cda5cdef790c457097830d81ca5" category="paragraph">Se non vuoi più utilizzare un abbonamento Keystone con BlueXP, puoi scollegarlo. Nota: Puoi scollegare solo un abbonamento non allegato a un abbonamento Cloud Volumes ONTAP esistente.</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">Novità</block>
 </blocks>
