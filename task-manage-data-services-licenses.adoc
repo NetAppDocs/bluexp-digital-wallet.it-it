@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-data-services-licenses.html 
-keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license 
+keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, digital wallet, bluexp digital wallet, classification, bluexp classification, bluexp tiering, tiering, bluexp backup and recovery, backup and recovery 
 summary: 'Il portafoglio digitale BlueXP consente di gestire le licenze acquistate direttamente da NetApp (BYOL) per l"utilizzo con backup e ripristino BlueXP, classificazione e tiering. È possibile visualizzare la capacità della licenza utilizzata, la quantità di capacità libera rimanente e visualizzare le notifiche se si raggiunge il limite di capacità o la data di scadenza.' 
 ---
 = Gestire le licenze per i servizi dati BlueXP
