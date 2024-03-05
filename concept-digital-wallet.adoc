@@ -23,7 +23,7 @@ Il portafoglio digitale BlueXP consente di gestire e monitorare le licenze BlueX
 * Gestione delle licenze basate su capacità e su nodo per Cloud Volumes ONTAP
 * Aggiungere e gestire le licenze per i servizi dati BlueXP
 * Gestisci gli abbonamenti per PAYGO e i contratti annuali associati al tuo account BlueXP e con Astra Control
-* Gestisci i servizi di abbonamento Keystone per l'utilizzo con Cloud Volumes ONTAP e richiedi le modifiche alla capacità impegnata
+* Gestisci i servizi di iscrizione Keystone per l'utilizzo con i cluster Cloud Volumes ONTAP e ONTAP on-premise e richiede le modifiche alla capacità impegnata
 * Visualizza le informazioni sullo stato dei contratti hardware e software per i cluster ONTAP on-premise
 
 
@@ -31,11 +31,12 @@ Il portafoglio digitale BlueXP consente di gestire e monitorare le licenze BlueX
 
 == Servizi supportati
 
-Il portafoglio digitale BlueXP consente di gestire le licenze per:
+Il Digital Wallet di BlueXP consente di gestire le licenze per i seguenti servizi:
 
-* Backup e recovery
-* Classificazione
-* Cloud Volumes ONTAP
-* Cluster ONTAP on-premise
-* Tiering
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["Backup e recovery"^]
+* https://docs.netapp.com/us-en/bluexp-classification/index.html["Classificazione"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/bluexp-disaster-recovery/index.html["Disaster recovery"^] (Solo BYOL)
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html["Cluster ONTAP on-premise"^]
+* https://docs.netapp.com/us-en/bluexp-tiering/index.html["Tiering"^]
 

@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-data-services-licenses.html 
-keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, digital wallet, bluexp digital wallet, classification, bluexp classification, bluexp tiering, tiering, bluexp backup and recovery, backup and recovery 
-summary: 'Il portafoglio digitale BlueXP consente di gestire le licenze acquistate direttamente da NetApp (BYOL) per l"utilizzo con backup e ripristino BlueXP, classificazione e tiering. È possibile visualizzare la capacità della licenza utilizzata, la quantità di capacità libera rimanente e visualizzare le notifiche se si raggiunge il limite di capacità o la data di scadenza.' 
+keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, digital wallet, bluexp digital wallet, classification, bluexp classification, bluexp tiering, tiering, bluexp backup and recovery, backup and recovery, disaster recovery 
+summary: 'Il Digital Wallet di BlueXP ti permette di gestire le licenze acquistate direttamente dal NetApp (BYOL) per poterle utilizzare con backup e recovery di BlueXP, classificazione, disaster recovery e tiering. È possibile visualizzare la capacità della licenza utilizzata, la quantità di capacità libera rimanente e visualizzare le notifiche se si raggiunge il limite di capacità o la data di scadenza.' 
 ---
 = Gestire le licenze per i servizi dati BlueXP
 :hardbreaks:
@@ -14,12 +14,13 @@ summary: 'Il portafoglio digitale BlueXP consente di gestire le licenze acquista
 
 
 [role="lead"]
-Il portafoglio digitale BlueXP consente di gestire le licenze acquistate direttamente da NetApp (BYOL) per l'utilizzo con backup e ripristino BlueXP, classificazione e tiering. È possibile visualizzare la capacità della licenza utilizzata, la quantità di capacità libera rimanente e visualizzare le notifiche se si raggiunge il limite di capacità o la data di scadenza.
+Il Digital Wallet di BlueXP ti permette di gestire le licenze acquistate direttamente dal NetApp (BYOL) per poterle utilizzare con backup e recovery di BlueXP, classificazione, disaster recovery e tiering. È possibile visualizzare la capacità della licenza utilizzata, la quantità di capacità libera rimanente e visualizzare le notifiche se si raggiunge il limite di capacità o la data di scadenza.
 
 Le istruzioni riportate in questa pagina forniscono informazioni relative a ciascun servizio. Per informazioni più specifiche sulle licenze per questi servizi, fare riferimento alle seguenti pagine:
 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/task-licensing-cloud-backup.html["Impostare le licenze per il backup e ripristino BlueXP"^]
 * https://docs.netapp.com/us-en/bluexp-classification/task-licensing-datasense.html["Impostare la licenza per la classificazione BlueXP"^]
+* https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["Imposta le licenze per il disaster recovery di BlueXP"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["Impostare le licenze per il tiering BlueXP"^]
 
 

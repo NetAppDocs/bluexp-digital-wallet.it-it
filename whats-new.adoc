@@ -18,6 +18,18 @@ Scopri le novità del portafoglio digitale BlueXP.
 
 
 
+== 5 marzo 2024
+
+
+
+=== Disaster recovery di BlueXP
+
+Ora il Digital Wallet di BlueXP ti permette di gestire le licenze per il disaster recovery di BlueXP. Puoi aggiungere licenze, aggiornare le licenze e visualizzare i dettagli sulla capacità concessa in licenza.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["Scopri come gestire le licenze per i servizi dati BlueXP"]
+
+
+
 == 30 luglio 2023
 
 
