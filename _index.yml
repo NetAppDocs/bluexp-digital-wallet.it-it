@@ -1,0 +1,29 @@
+---
+indexpage:
+  title: Documentazione del portafoglio digitale BlueXP
+  summary: Il portafoglio digitale BlueXP offre gestione e monitoraggio centralizzati
+    delle licenze e degli abbonamenti.
+  keywords: bluexp, documentation, bluexp-family
+  lead: Il portafoglio digitale BlueXP offre gestione e monitoraggio centralizzati
+    delle licenze e degli abbonamenti.
+  tiles:
+  - title: Inizia subito
+    links:
+    - title: Scopri di più sul portafoglio digitale BlueXP
+      url: concept-digital-wallet.html
+  - title: Gestire le licenze
+    links:
+    - title: Gestione delle licenze basate sulla capacità per Cloud Volumes ONTAP
+      url: task-manage-capacity-licenses.html
+    - title: Gestire le licenze per i servizi dati BlueXP
+      url: task-manage-data-services-licenses.html
+    - title: Gestisci abbonamenti E contratti PAYGO
+      url: task-manage-subscriptions.html
+  - title: Blog e community
+    links:
+    - title: Community NetApp
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: Blog BlueXP
+      url: https://bluexp.netapp.com/blog
+    - title: Webinar sul cloud
+      url: https://bluexp.netapp.com/events

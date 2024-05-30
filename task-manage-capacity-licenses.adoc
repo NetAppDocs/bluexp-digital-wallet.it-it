@@ -20,6 +20,9 @@ Le _licenze basate sulla capacità_ consentono di pagare Cloud Volumes ONTAP per
 
 Il _portafoglio digitale BlueXP_ consente di gestire le licenze per Cloud Volumes ONTAP da un'unica postazione. È possibile aggiungere nuove licenze e aggiornare quelle esistenti.
 
+
+NOTE: Mentre l'utilizzo e la misurazione effettivi per i prodotti e i servizi gestiti in BlueXP sono sempre calcolati in GiB e TiB, i termini GB/GiB e TB/TiB vengono utilizzati in modo intercambiabile. Ciò si riflette negli elenchi di Cloud Marketplace, nelle quotazioni, nelle descrizioni degli elenchi e in altra documentazione di supporto
+
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Scopri di più sulle licenze Cloud Volumes ONTAP"].
 
 
@@ -177,6 +180,9 @@ Tuttavia, se BlueXP è stato implementato in una posizione che non dispone di ac
 .Di cosa hai bisogno
 Il file di licenza (o _files_ se si dispone di una coppia ha).
 
+
+NOTE: Per ulteriori informazioni su come ottenere un file di licenza, vedere https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#obtain-a-system-license-file["Ottenere un file di licenza di sistema"^].
+
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
 . Nella scheda *Cloud Volumes ONTAP*, fare clic sul menu delle azioni accanto alla licenza e selezionare *Aggiorna licenza*.
@@ -190,7 +196,7 @@ Il file di licenza (o _files_ se si dispone di una coppia ha).
 
 Le licenze basate sulla capacità sono disponibili sotto forma di _pacchetto_. Quando si crea un ambiente di lavoro Cloud Volumes ONTAP, è possibile scegliere tra diversi pacchetti di licenze in base alle proprie esigenze aziendali. Se le proprie esigenze cambiano dopo aver creato l'ambiente di lavoro, è possibile modificare il pacchetto in qualsiasi momento. Ad esempio, è possibile passare dal pacchetto Essentials al pacchetto Professional.
 
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Scopri di più sui pacchetti di licenza basati sulla capacità"].
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Scopri di più sui pacchetti di licenza basati sulla capacità"^].
 
 .A proposito di questa attività
 * La modifica del metodo di addebito non influisce sul costo di una licenza acquistata da NetApp (BYOL) o sul mercato del cloud provider (pagamento a consumo).
