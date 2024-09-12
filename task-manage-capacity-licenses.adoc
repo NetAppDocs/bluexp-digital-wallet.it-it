@@ -181,7 +181,7 @@ Tuttavia, se BlueXP è stato implementato in una posizione che non dispone di ac
 Il file di licenza (o _files_ se si dispone di una coppia ha).
 
 
-NOTE: Per ulteriori informazioni su come ottenere un file di licenza, vedere https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#obtain-a-system-license-file["Ottenere un file di licenza di sistema"^].
+NOTE: Per ulteriori informazioni su come ottenere un file di licenza, fare riferimento a https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#obtain-a-system-license-file["Ottenere un file di licenza di sistema"^].
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
