@@ -22,7 +22,7 @@ Il portafoglio digitale BlueXP consente di gestire e monitorare le licenze BlueX
 
 * Gestione delle licenze basate su capacità e su nodo per Cloud Volumes ONTAP
 * Aggiungere e gestire le licenze per i servizi dati BlueXP
-* Gestisci gli abbonamenti per PAYGO e i contratti annuali associati al tuo account BlueXP e con Astra Control
+* Gestisci gli abbonamenti per PAYGO e i contratti annuali associati alla tua organizzazione BlueXP  e con Astra Control
 * Gestisci i servizi di iscrizione Keystone per l'utilizzo con i cluster Cloud Volumes ONTAP e ONTAP on-premise e richiede le modifiche alla capacità impegnata
 * Visualizza le informazioni sullo stato dei contratti hardware e software per i cluster ONTAP on-premise
 

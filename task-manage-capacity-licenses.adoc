@@ -84,7 +84,7 @@ image:screenshot-digital-wallet-packages.png["Uno screenshot che mostra la capac
 
 == Scarica i report sull'utilizzo
 
-Gli amministratori degli account possono scaricare quattro report sull'utilizzo dal portafoglio digitale in BlueXP. Questi report sull'utilizzo forniscono i dettagli relativi alla capacità delle sottoscrizioni e indicano come vengono addebitate le risorse nelle sottoscrizioni Cloud Volumes ONTAP. I report scaricabili acquisiscono i dati in un momento specifico e possono essere facilmente condivisi con altri.
+Puoi scaricare quattro report sull'utilizzo dal Digital Wallet di BlueXP . Questi report sull'utilizzo forniscono i dettagli relativi alla capacità delle sottoscrizioni e indicano come vengono addebitate le risorse nelle sottoscrizioni Cloud Volumes ONTAP. I report scaricabili acquisiscono i dati in un momento specifico e possono essere facilmente condivisi con altri.
 
 image:screenshot-digital-wallet-usage-report.png["La schermata mostra la pagina delle licenze digitali wallet Cloud Volumes ONTAP basate sulla capacità ed evidenzia il pulsante Usage report."]
 

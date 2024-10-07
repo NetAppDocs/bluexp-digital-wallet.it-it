@@ -24,7 +24,7 @@ Quando ti iscrivi a BlueXP dal marketplace di un provider cloud, verrai reindiri
 
 == Visualizza gli abbonamenti
 
-Il portafoglio digitale BlueXP fornisce informazioni dettagliate su ciascun abbonamento PAYGO e contratto annuale associato al tuo account BlueXP e ad Astra Control (Astra Control utilizza il servizio di addebito BlueXP).
+Il Digital Wallet di BlueXP  fornisce i dettagli di ogni abbonamento a PAYGO e contratto annuale associati alla tua organizzazione o account BlueXP  e con Astra Control (Astra Control utilizza il servizio di addebito di BlueXP ).
 
 Per Google Cloud, puoi anche identificare gli abbonamenti al mercato associati a un'offerta privata, che ti consente di verificare che l'offerta sia stata accettata correttamente.
 
@@ -82,5 +82,5 @@ Ad esempio, supponiamo di avere due account e di fatturarvi ciascuno tramite abb
 +
 image:screenshot-subscription-menu.png["Schermata del menu delle azioni per un abbonamento."]
 
-. Scegliere di rinominare l'abbonamento o di gestire gli account BlueXP associati all'abbonamento.
+. Scegliere di rinominare l'abbonamento o di gestire le organizzazioni o gli account BlueXP  associati all'abbonamento.
 

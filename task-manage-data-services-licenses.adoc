@@ -10,7 +10,7 @@ summary: 'Il Digital Wallet di BlueXP  ti consente di gestire le licenze acquis
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/bluexp-backup-recovery/media/
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -34,18 +34,36 @@ TIP: Il Digital Wallet di BlueXP  ti consente inoltre di gestire le licenze per
 Dopo aver acquistato una licenza, è possibile attivare la licenza in BlueXP inserendo il numero di serie e l'account NSS oppure caricando il file di licenza NetApp (NLF). Se si prevede di utilizzare questo metodo, la procedura riportata di seguito mostra come ottenere il file di licenza NLF.
 
 .Fasi
+. Trova il tuo ID account BlueXP :
++
+.. Nella parte superiore destra della console di BlueXP , selezionare image:icon-settings-option.png["L'icona delle impostazioni che viene visualizzata nella parte superiore destra della console Web di BlueXP ."] > *Gestione identità e accessi*.
+.. Nella pagina Organizzazione, individuare l'ID account e copiarlo.
++
+Se non è elencato alcun ID account e si dispone solo di un ID organizzazione, sarà necessario copiare i primi otto caratteri dell'ID organizzazione e aggiungerlo a _account-_
+
++
+Ad esempio, supponiamo che si tratti dell'ID dell'organizzazione:
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+L'ID account è il seguente:
+
++
+account-ea10e1c6
+
+
+
 . Accedere a https://mysupport.netapp.com["Sito di supporto NetApp"^] E selezionare *sistemi > licenze software*.
 . Inserire il numero di serie della licenza.
 +
 image:screenshot_cloud_backup_license_step1.gif["Una schermata che mostra una tabella di licenze dopo la ricerca per numero di serie."]
 
 . Nella colonna *chiave di licenza*, selezionare *Ottieni file di licenza NetApp*.
-. Inserire l'ID account BlueXP (chiamato ID tenant sul sito di supporto) e selezionare *Submit* (Invia) per scaricare il file di licenza.
+. Immettere l'ID account BlueXP  (chiamato ID tenant sul sito di supporto) e selezionare *Invia* per scaricare il file di licenza.
 +
 image:screenshot_cloud_backup_license_step2.gif["Una schermata che mostra la finestra di dialogo Get License (Ottieni licenza) in cui inserire l'ID tenant e selezionare Submit (Invia) per scaricare il file di licenza."]
-
-+
-Puoi trovare il tuo ID account BlueXP selezionando l'elenco a discesa *account* nella parte superiore di BlueXP, quindi selezionando *Gestisci account* accanto al tuo account. L'ID account si trova nella scheda Panoramica.
 
 
 
