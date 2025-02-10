@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-homepage.html 
-keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
+keywords: license, licensing, dashboard, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
 summary: Nella homepage digitale è possibile ottenere una panoramica di tutte le sottoscrizioni e le licenze per la propria organizzazione. 
 ---
 = Utilizzare la panoramica del dashboard
@@ -43,14 +43,14 @@ link:task-manage-data-services-licenses.html["Ulteriori informazioni sulla gesti
 . Selezionare *Panoramica*.
 . Selezionare *Visualizza* per il rispettivo servizio dati (incluso Cloud Volumes ONTAP) per visualizzare i dettagli e gestire licenze e sottoscrizioni.
 +
-Ogni riquadro offre una panoramica grafica dello stato della capacità, mentre la pagina dei dettagli consente di visualizzare e gestire i metodi di pagamento relativi a tale capacità.
+Ogni riquadro offre una panoramica grafica della capacità. Puoi visualizzare la pagina dei dettagli per visualizzare e gestire i metodi di pagamento per tale capacità.
 
 . Selezionare la scheda *licenze* o *Abbonamenti*.
 . Filtrare la tabella selezionando un filtro di colonna e un valore per il quale filtrare. Ad esempio, nella scheda *Sottoscrizioni*, è possibile filtrare la colonna tipo per contratto annuale o abbonamento.
 +
 image:screenshot_digital_wallet_filter.png["Azione filtro sulla tabella di sottoscrizione"]
 
-. Personalizzare le colonne visualizzate nella tabella. È possibile aggiungere e rimuovere colonne dalla tabella selezionando l'icona della colonna che indica le colonne che si desidera visualizzare o nascondere. La seguente schermata indica che solo le colonne tipo, Data di fine, Stato e Configurazione.
+. Personalizzare le colonne visualizzate nella tabella. È possibile aggiungere e rimuovere colonne dalla tabella selezionando l'icona *colonna* che indica le colonne che si desidera visualizzare o nascondere. La seguente schermata indica che solo le colonne tipo, Data di fine, Stato e Configurazione.
 +
 image:screenshot_digital_wallet_show_hide_columns.png["la schermata fornisce un esempio di come visualizzare o nascondere le colonne"]
 
