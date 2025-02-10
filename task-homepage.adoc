@@ -1,0 +1,81 @@
+---
+sidebar: sidebar 
+permalink: task-homepage.html 
+keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
+summary: Nella homepage digitale è possibile ottenere una panoramica di tutte le sottoscrizioni e le licenze per la propria organizzazione. 
+---
+= Utilizzare la panoramica del dashboard
+:allow-uri-read: 
+
+
+
+
+== Utilizzare la panoramica del dashboard
+
+[role="lead"]
+Utilizza il dashboard *Panoramica* nel portafoglio digitale per monitorare lo stato delle licenze e degli abbonamenti per assicurarti di gestire i costi e mantenere il servizio quando gli abbonamenti raggiungono le date di scadenza o i limiti di capacità.
+
+È possibile visualizzare informazioni specifiche su licenze e abbonamenti per ciascun servizio dati (incluso Cloud Volumes ONTAP) e analizzare in dettaglio ciascuna di esse.
+
+Sarai inoltre avvisato dei limiti di capacità o delle scadenze imminenti e ti verrà chiesto di intervenire.
+
+
+
+=== Consente di visualizzare i dettagli relativi a un servizio dati specifico
+
+Il dashboard Digital Wallet *Overview* offre la possibilità di visualizzare i dettagli sui seguenti servizi dati:
+
+* Cloud Volumes ONTAP
+* Disaster recovery
+* Protezione ransomware
+* Backup e recovery
+* Tiering
+
+
+Ad esempio, gli amministratori incaricati della gestione delle risorse Cloud Volumes ONTAP possono visualizzare la capacità corrente di ogni licenza o abbonamento, offrendo loro una visualizzazione mirata delle risorse all'interno della propria competenza.
+
+Nota: Sebbene sia possibile aggiornare e rimuovere le licenze dal dashboard, non è possibile aggiungere una nuova licenza o un nuovo abbonamento.
+
+link:task-manage-data-services-licenses.html["Ulteriori informazioni sulla gestione delle licenze"^]. link:task-manage-subscriptions.html["Ulteriori informazioni sulla gestione delle sottoscrizioni"^].
+
+.Fasi
+. Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
+. Selezionare *Panoramica*.
+. Selezionare *Visualizza* per il rispettivo servizio dati (incluso Cloud Volumes ONTAP) per visualizzare i dettagli e gestire licenze e sottoscrizioni.
++
+Ogni riquadro offre una panoramica grafica dello stato della capacità, mentre la pagina dei dettagli consente di visualizzare e gestire i metodi di pagamento relativi a tale capacità.
+
+. Selezionare la scheda *licenze* o *Abbonamenti*.
+. Filtrare la tabella selezionando un filtro di colonna e un valore per il quale filtrare. Ad esempio, nella scheda *Sottoscrizioni*, è possibile filtrare la colonna tipo per contratto annuale o abbonamento.
++
+image:screenshot_digital_wallet_filter.png["Azione filtro sulla tabella di sottoscrizione"]
+
+. Personalizzare le colonne visualizzate nella tabella. È possibile aggiungere e rimuovere colonne dalla tabella selezionando l'icona della colonna che indica le colonne che si desidera visualizzare o nascondere. La seguente schermata indica che solo le colonne tipo, Data di fine, Stato e Configurazione.
++
+image:screenshot_digital_wallet_show_hide_columns.png["la schermata fornisce un esempio di come visualizzare o nascondere le colonne"]
+
+. Espandere qualsiasi riga per visualizzare i dettagli relativi al contenuto dell'iscrizione o della licenza, alla capacità acquistata e ai termini.
+. Utilizzare il menu azioni per gestire una licenza o un abbonamento specifico, ad esempio aggiornare una licenza o associare un abbonamento a un'organizzazione diversa.
++
+Non è possibile aggiungere nuove licenze o sottoscrizioni dalla pagina *Panoramica* per un servizio specifico, è possibile aggiungere licenze o sottoscrizioni solo dalla scheda *licenze servizio dati* o dalla scheda *sottoscrizioni Marketplace*, rispettivamente.
+
++
+link:task-data-services-licenses.html["Ulteriori informazioni sulla gestione delle licenze."] link:task-manage-subscriptions.html["Ulteriori informazioni sulla gestione delle sottoscrizioni."]
+
+
+
+
+
+=== Risolvere i problemi di licenza o abbonamento
+
+È possibile visualizzare i problemi di licenza e abbonamento che devono essere risolti. I problemi includono le licenze e gli abbonamenti che stanno per scadere o stanno raggiungendo capacità.
+
+. Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
+. Selezionare *Panoramica*.
+. Selezionare *Risolvi* per il riquadro *richiede azione* per visualizzare i problemi che devono essere regolati. Se *Risolvi* non viene visualizzato, non ci sono problemi che richiedono un'azione in questo momento.
+. Dalla pagina *Richiedi azione*, selezionare la scheda *licenze* o la scheda *Sottoscrizioni*.
+. Utilizzare il menu azione per risolvere il problema.
++
+link:task-manage-data-services-licenses.html["Ulteriori informazioni sulla gestione delle licenze"^]. link:task-manage-subscriptions.html["Ulteriori informazioni sulla gestione delle sottoscrizioni"^].
+
+

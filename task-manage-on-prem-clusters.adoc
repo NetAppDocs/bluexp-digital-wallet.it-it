@@ -4,7 +4,7 @@ permalink: task-manage-on-prem-clusters.html
 keywords: digital wallet, cluster, on-prem ontap cluster, onprem cluster, contract, licensing, ontap licensing, ontap contract, bluexp digital wallet 
 summary: Il portafoglio digitale BlueXP consente di visualizzare i dettagli del contratto per ciascuno dei cluster ONTAP on-premise. Se non hai ancora scoperto un cluster in BlueXP, puoi farlo anche dal portafoglio digitale. 
 ---
-= Gestione delle licenze per cluster ONTAP on-premise
+= Gestisci le licenze per ONTAP on-premise
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

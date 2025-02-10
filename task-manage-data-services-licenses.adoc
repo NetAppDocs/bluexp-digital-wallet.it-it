@@ -14,7 +14,10 @@ summary: 'Il Digital Wallet di BlueXP  ti consente di gestire le licenze acquis
 
 
 [role="lead"]
-Il Digital Wallet di BlueXP  ti consente di gestire le licenze acquistate direttamente dal modello NetApp (BYOL) per backup e recovery di BlueXP , disaster recovery e tiering. È possibile visualizzare la capacità della licenza utilizzata, la quantità di capacità libera rimanente e visualizzare le notifiche se si raggiunge il limite di capacità o la data di scadenza.
+Il Digital Wallet di BlueXP  ti consente di gestire le licenze acquistate direttamente dal NetApp (BYOL) per l'utilizzo con i servizi dati di BlueXP , tra cui Cloud Volumes per ONTAP. È possibile visualizzare la capacità della licenza utilizzata, la quantità di capacità libera rimanente e visualizzare le notifiche se si raggiunge il limite di capacità o la data di scadenza.
+
+
+NOTE: La pagina *licenze servizio dati* elenca tutte le licenze. Se si desidera ottenere i dettagli della licenza per un servizio dati specifico, utilizzare i riquadri del servizio dati nella dashboard *Panoramica*. link:task-homepage.html#overview-page["Ulteriori informazioni sul dashboard Panoramica"].
 
 Le istruzioni riportate in questa pagina forniscono informazioni relative a ciascun servizio. Per informazioni più specifiche sulle licenze per questi servizi, fare riferimento alle seguenti pagine:
 
@@ -22,16 +25,16 @@ Le istruzioni riportate in questa pagina forniscono informazioni relative a cias
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["Imposta le licenze per il disaster recovery di BlueXP"^]
 * https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["Imposta una licenza per la protezione dal ransomware di BlueXP"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["Impostare le licenze per il tiering BlueXP"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Impostare la licenza per Cloud Volumes ONTAP"^]
 
-
-
-TIP: Il Digital Wallet di BlueXP  ti consente inoltre di gestire le licenze per la classificazione BlueXP . Tuttavia, la classificazione BlueXP  è ora disponibile come funzionalità di base all'interno di BlueXP  senza costi aggiuntivi. Non è più necessario disporre di una licenza o di un abbonamento. https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["Scopri di più sulla classificazione BlueXP"^]
 
 
 
 == Ottenere un file di licenza
 
-Dopo aver acquistato una licenza, è possibile attivare la licenza in BlueXP inserendo il numero di serie e l'account NSS oppure caricando il file di licenza NetApp (NLF). Se si prevede di utilizzare questo metodo, la procedura riportata di seguito mostra come ottenere il file di licenza NLF.
+È necessario ottenere un file di licenza NetApp da caricare se BlueXP  non dispone di accesso a Internet (installazioni in modalità privata).
+
+Dopo aver acquistato una licenza dal rappresentante di vendita NetApp, NetApp invia un'e-mail con il numero di serie e i dettagli aggiuntivi della licenza. Nel caso in cui le licenze non vengano visualizzate automaticamente, è necessario disporre di tale numero seriale per ottenere il rispettivo file di licenza.
 
 .Fasi
 . Trova il tuo ID account BlueXP :
@@ -58,12 +61,12 @@ account-ea10e1c6
 . Accedere a https://mysupport.netapp.com["Sito di supporto NetApp"^] E selezionare *sistemi > licenze software*.
 . Inserire il numero di serie della licenza.
 +
-image:screenshot_cloud_backup_license_step1.gif["Una schermata che mostra una tabella di licenze dopo la ricerca per numero di serie."]
+image:../media/screenshot_cloud_backup_license_step1.gif["Una schermata che mostra una tabella di licenze dopo la ricerca per numero di serie."]
 
 . Nella colonna *chiave di licenza*, selezionare *Ottieni file di licenza NetApp*.
 . Immettere l'ID account BlueXP  (chiamato ID tenant sul sito di supporto) e selezionare *Invia* per scaricare il file di licenza.
 +
-image:screenshot_cloud_backup_license_step2.gif["Una schermata che mostra la finestra di dialogo Get License (Ottieni licenza) in cui inserire l'ID tenant e selezionare Submit (Invia) per scaricare il file di licenza."]
+image:../media/screenshot_cloud_backup_license_step2.gif["Una schermata che mostra la finestra di dialogo Get License (Ottieni licenza) in cui inserire l'ID tenant e selezionare Submit (Invia) per scaricare il file di licenza."]
 
 
 
@@ -71,52 +74,55 @@ image:screenshot_cloud_backup_license_step2.gif["Una schermata che mostra la fin
 
 == Aggiungere una licenza
 
-Dopo aver acquistato una licenza per un servizio dati BlueXP, è necessario aggiungere la licenza a BlueXP.
+Le informazioni sulla licenza vengono visualizzate automaticamente nel portafoglio digitale quando l'account BlueXP  associato alla licenza è anche un account del sito di supporto NetApp e BlueXP  ha accesso a Internet. Se hai utilizzato un account BlueXP  non associato al tuo account NSS, dovrai aggiungere manualmente una licenza.
+
+È possibile aggiungere la licenza in BlueXP  immettendo il numero di serie e l'account NSS associato oppure caricando il file di licenza NetApp (NLF). È necessario ottenere un file di licenza NetApp da caricare se BlueXP  non dispone di accesso a Internet (installazioni in modalità privata).
+
+Dopo aver acquistato una licenza dal rappresentante di vendita NetApp, NetApp invia un'e-mail con il numero di serie e i dettagli aggiuntivi della licenza. Per aggiungere o aggiornare la rispettiva licenza nel portafoglio digitale, è necessario disporre di tale numero di serie.
+
+
+NOTE: Se si desidera inserire il numero di serie, è necessario prima https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Aggiungi il tuo account NetApp Support Site a BlueXP"^]. Si tratta dell'account NetApp Support Site autorizzato ad accedere al numero di serie.
 
 .Fasi
-. Dal menu BlueXP, selezionare *Governance > Digital wallet*, quindi selezionare la scheda *licenze servizi dati*.
+. Dal menu BlueXP , selezionare *Governance > Digital Wallet*, quindi selezionare la scheda *licenze servizi dati*.
 . Selezionare *Aggiungi licenza*.
-. Nella finestra di dialogo _Add License_, inserire le informazioni sulla licenza e selezionare *Add License*:
+. Nella finestra di dialogo _Aggiungi licenza_, immettere le informazioni sulla licenza e selezionare *Aggiungi licenza*:
 +
-** Se si dispone del numero di serie e si conosce l'account NSS, selezionare l'opzione *inserire il numero di serie* e immettere tali informazioni.
+** Se si dispone del numero di serie e si conosce il proprio account NSS, selezionare *inserire il numero di serie* e inserire le informazioni.
++
+Se hai inserito un numero di serie, devi anche selezionare l'account NetApp Support Site autorizzato ad accedere al numero di serie.
+
 +
 Se il tuo account NetApp Support Site non è disponibile nell'elenco a discesa, https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Aggiungere l'account NSS a BlueXP"^]
 
-** Se si dispone del file di licenza (richiesto quando si utilizza BlueXP in modalità privata), selezionare l'opzione *Upload License file* (carica file di licenza) e seguire le istruzioni per allegare il file.
-+
-image:screenshot_services_license_add2.png["Una schermata che mostra la pagina per aggiungere la licenza BYOL."]
+** Se si dispone del file di licenza (necessario quando si utilizza BlueXP  in modalità privata), selezionare l'opzione *carica file di licenza* e seguire le istruzioni per allegare il file.
 
 
 
-
-
-.Risultato
-BlueXP aggiunge la licenza.
 
 
 
 == Aggiornare una licenza
 
-Se la durata della licenza è prossima alla data di scadenza, o se la capacità concessa in licenza sta raggiungendo il limite, ti verrà inviata una notifica nel portafoglio digitale BlueXP. È possibile aggiornare la licenza prima della scadenza, in modo da non interrompere l'utilizzo del servizio dati BlueXP.
+Se il termine della licenza è prossimo alla scadenza o se la capacità concessa in licenza sta raggiungendo il limite, riceverai una notifica nel portafoglio digitale di BlueXP . È possibile aggiornare la licenza prima della scadenza, in modo da non interrompere la possibilità di utilizzare un servizio dati BlueXP  o Cloud Volumes ONTAP.
 
-image:screenshot_services_license_expire.png["Una schermata che mostra una licenza in scadenza nella pagina Digital Wallet."]
+Dopo l'acquisto di capacità aggiuntiva da parte di NetApp o l'estensione del termine della licenza, BlueXP  aggiorna automaticamente la licenza nel Digital Wallet quando l'account BlueXP  associato alla licenza è anche un account del sito di supporto NetApp e BlueXP  ha accesso a Internet.
+
+Se il tuo account BlueXP  non è associato al tuo account NSS, dovrai aggiornare manualmente una licenza.
+
+Puoi aggiornare manualmente la tua licenza in BlueXP  inserendo il numero di serie e l'account NSS associato, oppure caricando il file di licenza NetApp (o _files_ se hai una coppia ha Cloud Volumes ONTAP). È necessario ottenere un file di licenza NetApp da caricare se BlueXP  non dispone di accesso a Internet (installazioni in modalità privata).
+
+Dopo aver acquistato una licenza dal rappresentante di vendita NetApp, NetApp invia un'e-mail con il numero di serie e i dettagli aggiuntivi della licenza. Per aggiungere o aggiornare la rispettiva licenza nel portafoglio digitale, è necessario disporre di tale numero di serie.
+
+
+NOTE: Se si desidera inserire il numero di serie, è necessario prima https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Aggiungi il tuo account NetApp Support Site a BlueXP"^]. Si tratta dell'account NetApp Support Site autorizzato ad accedere al numero di serie.
 
 .Fasi
-. Selezionare l'icona della chat nell'angolo inferiore destro di BlueXP o contattare il supporto per richiedere un'estensione del termine o una capacità aggiuntiva della licenza per il numero di serie specifico.
+. Contattare il rappresentante NetApp per acquistare una nuova licenza.
 +
-Dopo aver pagato la licenza e averla registrata nel NetApp Support Site, BlueXP aggiorna automaticamente la licenza nel portafoglio digitale e la pagina delle licenze dei servizi dati rifletterà la modifica tra 5 e 10 minuti.
+Dopo il pagamento della licenza e la registrazione sul sito di supporto NetApp, BlueXP  aggiorna automaticamente la licenza nel Digital Wallet di BlueXP  e la pagina delle licenze del servizio dati rifletterà le modifiche tra 5 e 10 minuti.
 
-. Se BlueXP non riesce ad aggiornare automaticamente la licenza (ad esempio, quando si utilizza BlueXP in modalità privata), sarà necessario caricare manualmente il file di licenza.
-+
-.. È possibile <<Ottenere un file di licenza,Ottenere il file di licenza dal NetApp Support Site>>.
-.. Nella scheda _licenze servizi dati_, selezionare image:screenshot_horizontal_more_button.gif["Icona Altro"] Per il numero di serie del servizio che si sta aggiornando, quindi selezionare *Aggiorna licenza*.
-+
-image:screenshot_services_license_update1.png["Schermata che mostra la selezione del pulsante Update License (Aggiorna licenza) per un determinato servizio."]
+. Se BlueXP  non è in grado di aggiornare automaticamente la licenza (ad esempio, quando si utilizza BlueXP  in modalità privata), è necessario ottenere un file di licenza NetApp dal supporto e caricare manualmente il file di licenza. <<obtain-license,Informazioni su come ottenere un file di licenza.>>
+. Nella scheda _licenze servizio dati_, selezionare image:icon-action.png["Icona Altro"] per il numero di serie che si sta aggiornando, quindi selezionare *Aggiorna licenza*.
+. Nella pagina _Aggiorna licenza_, caricare il file di licenza e selezionare *Aggiorna licenza*.
 
-.. Nella pagina _Update License_, caricare il file di licenza e selezionare *Update License* (Aggiorna licenza).
-
-
-
-
-.Risultato
-BlueXP aggiorna la licenza.

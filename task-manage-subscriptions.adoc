@@ -14,28 +14,32 @@ summary: 'Quando ti iscrivi a BlueXP dal marketplace di un provider cloud, verra
 
 
 [role="lead"]
-Quando ti iscrivi a BlueXP dal marketplace di un provider cloud, verrai reindirizzato al sito Web BlueXP, dove dovrai salvare l'abbonamento e associarlo a account specifici. Dopo aver effettuato l'iscrizione, ogni abbonamento sarà disponibile per la gestione dal portafoglio digitale BlueXP.
+Quando ti iscrivi ai servizi dati BlueXP  (incluso Cloud Volumes ONTAP) dal mercato di un provider di servizi cloud, verrai reindirizzato al sito Web di BlueXP  dove devi salvare il tuo abbonamento e associarlo alla tua organizzazione BlueXP . Dopo aver effettuato l'iscrizione, ogni abbonamento sarà disponibile per la gestione dal portafoglio digitale BlueXP.
 
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html["Scopri come iscriverti a BlueXP (modalità standard)"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html["Scopri come iscriverti a BlueXP (modalità limitata)"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html["Scopri come abbonarti ai servizi dati BlueXP  (modalità standard)"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html["Scopri come abbonarti ai servizi dati BlueXP  (modalità limitata)"^]
 
+
+
+NOTE: La pagina *Marketplace Subscriptions* elenca tutte le licenze. Se si desidera ottenere i dettagli della licenza per un servizio dati specifico, utilizzare i riquadri del servizio dati nella dashboard *Panoramica*. link:task-homepage.html#overview-page["Ulteriori informazioni sul dashboard Panoramica"].
 
 
 
 == Visualizza gli abbonamenti
 
-Il Digital Wallet di BlueXP  fornisce i dettagli di ogni abbonamento a PAYGO e contratto annuale associati alla tua organizzazione o account BlueXP  e con Astra Control (Astra Control utilizza il servizio di addebito di BlueXP ).
+Il Digital Wallet di BlueXP  fornisce i dettagli di ciascun abbonamento a PAYGO e del contratto annuale associato alla tua organizzazione o al tuo account BlueXP .
 
 Per Google Cloud, puoi anche identificare gli abbonamenti al mercato associati a un'offerta privata, che ti consente di verificare che l'offerta sia stata accettata correttamente.
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
-. Selezionare *Abbonamenti*.
+. Selezionare *Marketplace Subscriptions*.
 +
-Verranno visualizzati solo gli abbonamenti associati all'account attualmente visualizzato.
+Verranno visualizzati solo gli abbonamenti associati all'organizzazione attualmente visualizzata.
 
 . Durante la visualizzazione delle informazioni relative alle sottoscrizioni, è possibile interagire con i dettagli della tabella come segue:
 +
+** Utilizzare Ricerca avanzata e filtraggio per determinare quali sottoscrizioni sono visualizzate nella tabella. È possibile eseguire una ricerca in base al nome specifico di un abbonamento e filtrare in base a una serie di parametri di abbonamento, quali tipo e configurazione.
 ** Espandere una riga per visualizzare ulteriori dettagli.
 +
 image:screenshot-subscriptions-expand.png["Una schermata della scheda Subscriptions (Abbonamenti) nel portafoglio digitale in cui è possibile selezionare la freccia alla fine di una riga per espanderla."]
@@ -69,18 +73,112 @@ Contratti::
 
 
 
-== Gestisci le tue sottoscrizioni
+== Rinominare un abbonamento
 
-Puoi gestire gli abbonamenti dal portafoglio digitale BlueXP rinominando un abbonamento e scegliendo gli account associati all'abbonamento.
-
-Ad esempio, supponiamo di avere due account e di fatturarvi ciascuno tramite abbonamenti separati. Potresti disassociare un abbonamento da uno degli account in modo che gli utenti di quell'account non scelgano accidentalmente l'abbonamento sbagliato quando crei un ambiente di lavoro Cloud Volumes ONTAP.
+È possibile rinominare un abbonamento per identificare meglio il modo in cui viene utilizzato nell'organizzazione.
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
-. Selezionare *Abbonamenti*.
-. Selezionare il menu delle azioni nella riga corrispondente all'abbonamento che si desidera gestire.
+. Selezionare *Marketplace Subscriptions*.
+. Selezionare il menu delle azioni nella riga corrispondente all'abbonamento che si desidera gestire e scegliere *Rinomina*.
 +
-image:screenshot-subscription-menu.png["Schermata del menu delle azioni per un abbonamento."]
+image:screenshot_rename_subscription.png["Schermata dell'opzione Rinomina per un abbonamento."]
 
-. Scegliere di rinominare l'abbonamento o di gestire le organizzazioni o gli account BlueXP  associati all'abbonamento.
+
+
+
+
+== Configurare una sottoscrizione con una credenziale del provider
+
+Le sottoscrizioni vengono in genere configurate con la credenziale del provider creata al momento della sottoscrizione. In alcuni casi, potrebbe essere necessario riconfigurare un abbonamento per utilizzare una credenziale diversa se si desidera modificare la modalità di addebito. La credenziale associata a un abbonamento deve essere una credenziale associata anche a un connettore.
+
+Il formato della credenziale dipende dal mercato in uso. Ad esempio, le iscrizioni al marketplace Azure sono associate al nome dell'iscrizione ad Azure, mentre le iscrizioni al marketplace AWS utilizzano l'account ID AWS. È possibile visualizzare un elenco delle credenziali disponibili nella pagina credenziali.
+
+L'opzione Configura è disattivata se si è annullata la sottoscrizione a un abbonamento.
+
+.Fasi
+. Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
+. Selezionare *Marketplace Subscriptions*.
+. Selezionare il menu delle azioni nella riga corrispondente all'abbonamento che si desidera configurare e scegliere *Configura*.
+. Nella finestra di dialogo _Configure_, scegliere una credenziale a cui configurare l'abbonamento. È possibile scegliere solo le credenziali associate al connettore attualmente selezionato. Se non viene visualizzata la credenziale che si desidera utilizzare, provare a passare a una vista diversa del connettore. ## questo è descritto con precisione? ##
+
+
+
+
+== Associare un abbonamento a un'organizzazione BlueXP 
+
+L'associazione di un abbonamento a un'organizzazione garantisce che i membri di tale organizzazione possano utilizzare tale abbonamento per l'addebito.
+
+È possibile limitare l'utilizzo di una sottoscrizione a un'organizzazione specifica o condividere la sottoscrizione tra più organizzazioni. È inoltre possibile sostituire l'abbonamento di un'organizzazione esistente, se necessario.
+
+Per associare una sottoscrizione a un'organizzazione, è necessario disporre del ruolo di amministratore dell'organizzazione.
+
+
+NOTE: BlueXP  supporta la gestione delle identità e degli accessi (IAM) in modalità standard che utilizza le organizzazioni per gestire utenti e risorse. Se utilizzi BlueXP  in modalità privata o limitata, utilizza un _account_ di BlueXP  per gestire utenti e risorse, comprese le sottoscrizioni.
+
+.Fasi
+. Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
+. Selezionare *Marketplace Subscriptions*.
+. Selezionare il menu delle azioni nella riga corrispondente all'abbonamento che si desidera associare e scegliere *Associa*.
+. Nella finestra di dialogo *Associa abbonamento*, scegliere una o più organizzazioni a cui associare l'abbonamento.
+. Facoltativamente, utilizzare il cursore per indicare che si sta sostituendo una sottoscrizione esistente per l'organizzazione selezionata.
+. Selezionare *Associa*.
+
+
+
+
+== Consente di visualizzare le credenziali associate a un abbonamento
+
+##è possibile visualizzare le credenziali per un abbonamento specifico dalla pagina *Marketplace Subscriptions* nel portafoglio digitale. Ciò consente di verificare la modalità di fatturazione dell'abbonamento. Poiché le credenziali sono anche legate al connettore in uso, è necessario selezionare il connettore associato all'abbonamento che si desidera visualizzare.##
+
+
+NOTE: Utilizzare il menu a discesa connettore nella barra di navigazione superiore per cambiare i connettori se necessario.
+
+.Fasi
+. Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
+. Selezionare *Marketplace Subscriptions*.
+. Nella riga che contiene l'abbonamento di cui si desidera visualizzare le credenziali, selezionare Visualizza. Se a un abbonamento sono associate più credenziali, non viene visualizzata alcuna credenziali e viene richiesto di selezionare un connettore diverso.
+
+
+
+
+== Aggiungi una nuova iscrizione al mercato
+
+Puoi iscriverti a un'iscrizione al marketplace direttamente dal Digital Wallet.
+
+[role="tabbed-block"]
+====
+.AWS
+--
+Il seguente video illustra i passaggi per abbonarsi a BlueXP  dal marketplace AWS:
+
+.Iscriviti a BlueXP dal marketplace AWS
+video::096e1740-d115-44cf-8c27-b051011611eb[panopto]
+--
+.Azure
+--
+Il seguente video mostra i passaggi per iscriversi a Azure Marketplace:
+
+.Iscriviti a BlueXP da Azure Marketplace
+video::b7e97509-2ecf-4fa0-b39b-b0510109a318[panopto]
+--
+.Google Cloud
+--
+Il seguente video mostra i passaggi per iscriversi a Google Cloud Marketplace:
+
+.Iscriviti a BlueXP da Google Cloud Marketplace
+video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
+--
+====
+.Fasi
+. Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
+. Selezionare *Marketplace Subscriptions*.
+. Sopra la tabella *Abbonamenti*, selezionare *Aggiungi sottoscrizione*.
+. Nella finestra di dialogo _Aggiungi abbonamento_, selezionare un provider cloud.
++
+.. Se scegli un abbonamento AWS, scegli se vuoi un contratto annuale o un abbonamento PAYGO.
+
+
+. Selezionare *Aggiungi abbonamento* per accedere al mercato del provider e completare i passaggi forniti.
+. Una volta finito nel marketplace del cloud provider, torna a BlueXP  per completare il processo.
 

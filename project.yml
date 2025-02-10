@@ -22,28 +22,32 @@ sidebar:
       url: "/concept-digital-wallet.html"
   - title: Utilizza il portafoglio digitale BlueXP
     entries:
-    - title: Gestire le licenze per Cloud Volumes ONTAP
+    - title: Utilizzare il dashboard Panoramica
+      url: "/task-homepage.html"
+    - title: Gestire le licenze
       entries:
-      - title: Licenze basate sulla capacità
-        url: "/task-manage-capacity-licenses.html"
-      - title: Licenze basate su nodo
-        url: "/task-manage-node-based-licenses.html"
-    - title: Gestire le licenze per i servizi dati BlueXP
-      url: "/task-manage-data-services-licenses.html"
-    - title: Gestisci abbonamenti E contratti PAYGO
+      - title: Gestire le licenze dei servizi dati
+        url: "/task-manage-data-services-licenses.html"
+      - title: Gestire le licenze per Cloud Volumes ONTAP
+        entries:
+        - title: Licenze basate sulla capacità per Cloud Volumes ONTAP
+          url: "/task-manage-capacity-licenses.html"
+        - title: Licenze basate su nodi per Cloud Volumes ONTAP
+          url: "/task-manage-node-based-licenses.html"
+    - title: Gestire gli abbonamenti Marketplace
       url: "/task-manage-subscriptions.html"
     - title: Gestire gli abbonamenti Keystone
       url: "/task-manage-keystone.html"
-    - title: Gestione delle licenze per cluster ONTAP on-premise
+    - title: Gestisci le licenze per ONTAP on-premise
       url: "/task-manage-on-prem-clusters.html"
-  - title: Conoscenza e supporto
-    entries:
-    - title: Registrati per ricevere assistenza
-      url: "/task-support-registration.html"
-    - title: Richiedi assistenza
-      url: "/task-get-help.html"
-  - title: Note legali
-    url: "/legal-notices.html"
+    - title: Conoscenza e supporto
+      entries:
+      - title: Registrati per ricevere assistenza
+        url: "/task-support-registration.html"
+      - title: Richiedi assistenza
+        url: "/task-get-help.html"
+    - title: Note legali
+      url: "/legal-notices.html"
 product-family:
   name: BlueXP
   repo: bluexp-family

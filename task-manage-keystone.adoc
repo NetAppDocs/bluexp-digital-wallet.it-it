@@ -28,12 +28,12 @@ Prima di poter utilizzare e gestire le iscrizioni Keystone in BlueXP, devi conta
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
-. Selezionare *Keystone*.
+. Selezionare *Iscrizioni Keystone*.
 . Se viene visualizzata la pagina *Benvenuti in NetApp Keystone*, inviare un'e-mail all'indirizzo indicato nella pagina.
 +
 Un rappresentante NetApp elaborerà la tua richiesta autorizzando il tuo account utente ad accedere alle sottoscrizioni.
 
-. Torna all'abbonamento *Keystone* per visualizzare i tuoi abbonamenti.
+. Torna alla scheda *Iscrizioni Keystone* per visualizzare le iscrizioni.
 +
 image:screenshot-keystone-overview.png["Una schermata che mostra un elenco degli abbonamenti Keystone."]
 
@@ -47,7 +47,7 @@ Dopo che NetApp ha autorizzato il tuo account, puoi collegare le iscrizioni Keys
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
-. Selezionare *Keystone*.
+. Selezionare *Iscrizioni Keystone*.
 . Per l'abbonamento che si desidera collegare, fare clic su image:icon-action.png["Un'icona con tre punti affiancati"] E selezionare *link*.
 +
 image:screenshot-keystone-link.png["Una schermata che mostra l'opzione di collegamento per un abbonamento."]
@@ -65,7 +65,7 @@ Per modificare la capacità sottoposta a commit per i livelli di servizio della 
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
-. Selezionare *Keystone*.
+. Selezionare *Iscrizioni Keystone*.
 . Per l'abbonamento che si desidera regolare la capacità, fare clic su image:icon-action.png["Un'icona con tre punti affiancati"] E selezionare *Visualizza dettagli e modifica*.
 . Immettere la capacità impegnata richiesta per uno o più abbonamenti.
 +
@@ -89,7 +89,7 @@ https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.h
 
 == Scollegare un abbonamento
 
-Se non vuoi più utilizzare un abbonamento Keystone con BlueXP, puoi scollegarlo. Nota: Puoi scollegare solo un abbonamento non allegato a un abbonamento Cloud Volumes ONTAP esistente.
+Se non desideri più utilizzare un abbonamento Keystone con BlueXP , puoi scollegarlo. Nota: Puoi scollegare solo un abbonamento non allegato a un abbonamento Cloud Volumes ONTAP esistente.
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.

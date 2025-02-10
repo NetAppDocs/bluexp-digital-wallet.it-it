@@ -17,8 +17,12 @@ indexpage:
       url: task-manage-capacity-licenses.html
     - title: Gestire le licenze per i servizi dati BlueXP
       url: task-manage-data-services-licenses.html
-    - title: Gestisci abbonamenti E contratti PAYGO
+  - title: Gestisci le tue sottoscrizioni
+    links:
+    - title: Gestire gli abbonamenti e i contratti del Marketplace
       url: task-manage-subscriptions.html
+    - title: Gestire gli abbonamenti Keystone
+      url: task-manage-keystone.html
   - title: Blog e community
     links:
     - title: Community NetApp

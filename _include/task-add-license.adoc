@@ -1,0 +1,29 @@
+= 
+:allow-uri-read: 
+
+
+Le informazioni sulla licenza vengono visualizzate automaticamente nel portafoglio digitale quando l'account BlueXP  associato alla licenza è anche un account del sito di supporto NetApp e BlueXP  ha accesso a Internet. Se hai utilizzato un account BlueXP  non associato al tuo account NSS, dovrai aggiungere manualmente una licenza.
+
+È possibile aggiungere la licenza in BlueXP  immettendo il numero di serie e l'account NSS associato oppure caricando il file di licenza NetApp (NLF). È necessario ottenere un file di licenza NetApp da caricare se BlueXP  non dispone di accesso a Internet (installazioni in modalità privata).
+
+Dopo aver acquistato una licenza dal rappresentante di vendita NetApp, NetApp invia un'e-mail con il numero di serie e i dettagli aggiuntivi della licenza. Per aggiungere o aggiornare la rispettiva licenza nel portafoglio digitale, è necessario disporre di tale numero di serie.
+
+
+NOTE: Se si desidera inserire il numero di serie, è necessario prima https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Aggiungi il tuo account NetApp Support Site a BlueXP"^]. Si tratta dell'account NetApp Support Site autorizzato ad accedere al numero di serie.
+
+.Fasi
+. Dal menu BlueXP , selezionare *Governance > Digital Wallet*, quindi selezionare la scheda *licenze servizi dati*.
+. Selezionare *Aggiungi licenza*.
+. Nella finestra di dialogo _Aggiungi licenza_, immettere le informazioni sulla licenza e selezionare *Aggiungi licenza*:
++
+** Se si dispone del numero di serie e si conosce il proprio account NSS, selezionare *inserire il numero di serie* e inserire le informazioni.
++
+Se hai inserito un numero di serie, devi anche selezionare l'account NetApp Support Site autorizzato ad accedere al numero di serie.
+
++
+Se il tuo account NetApp Support Site non è disponibile nell'elenco a discesa, https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["Aggiungere l'account NSS a BlueXP"^]
+
+** Se si dispone del file di licenza (necessario quando si utilizza BlueXP  in modalità privata), selezionare l'opzione *carica file di licenza* e seguire le istruzioni per allegare il file.
+
+
+

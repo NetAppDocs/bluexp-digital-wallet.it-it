@@ -18,7 +18,7 @@ Gestire le licenze basate su nodo nel portafoglio digitale BlueXP per garantire 
 
 Le _licenze basate su nodo_ sono il modello di licenza della generazione precedente (e non sono disponibili per i nuovi clienti):
 
-* Licenze BYOL acquistate da NetApp
+* BYOL (Bring Your Own License) acquistato da NetApp
 * Sottoscrizioni a pagamento orarie (PAYGO) dal mercato del tuo cloud provider
 
 
@@ -34,7 +34,9 @@ La pagina del portafoglio digitale BlueXP consente di visualizzare i dettagli re
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
-. Nella scheda *Cloud Volumes ONTAP*, selezionare *licenze basate su nodo* dall'elenco a discesa.
+. Selezionare la scheda *Panoramica*.
+. Nel riquadro Cloud Volumes ONTAP, selezionare *Visualizza*.
+. Selezionare *licenze basate su nodo* dal menu a discesa.
 . Fare clic su *PAYGO*.
 . Visualizza i dettagli nella tabella di ciascuna licenza PAYGO.
 +
@@ -57,7 +59,9 @@ Aggiungere una licenza basata su nodo al portafoglio digitale BlueXP in modo da 
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
-. Nella scheda *Cloud Volumes ONTAP*, selezionare *licenze basate su nodo* dall'elenco a discesa.
+. Selezionare la scheda *Panoramica*.
+. Nel riquadro Cloud Volumes ONTAP, selezionare *Visualizza*.
+. Selezionare *licenze basate su nodo* dal menu a discesa.
 . Fare clic su *non assegnato*.
 . Fare clic su *Aggiungi licenze non assegnate*.
 . Inserire il numero di serie della licenza o caricare il file di licenza.
@@ -84,9 +88,13 @@ Lo scambio della licenza revoca la licenza Cloud Volumes ONTAP e crea una licenz
 
 La licenza convertita ha la stessa data di scadenza della licenza Cloud Volumes ONTAP.
 
+link:https://mydemo.netapp.com/player/?demoId=c96ef113-c338-4e44-9bda-81a8d252de63&showGuide=true&showGuidesToolbar=true&showHotspots=true&source=app["Visualizzare la procedura dettagliata per lo scambio di licenze basate su nodi."^]
+
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
-. Nella scheda *Cloud Volumes ONTAP*, selezionare *licenze basate su nodo* dall'elenco a discesa.
+. Selezionare la scheda *Panoramica*.
+. Nel riquadro Cloud Volumes ONTAP, selezionare *Visualizza*.
+. Selezionare *licenze basate su nodo* dal menu a discesa.
 . Fare clic su *non assegnato*.
 . Fare clic su *Exchange License*.
 +
@@ -128,7 +136,9 @@ Se BlueXP non riesce ad accedere al file di licenza tramite una connessione Inte
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
-. Nella scheda *Cloud Volumes ONTAP*, selezionare *licenze basate su nodo* dall'elenco a discesa.
+. Selezionare la scheda *Panoramica*.
+. Nel riquadro Cloud Volumes ONTAP, selezionare *Visualizza*.
+. Selezionare *licenze basate su nodo* dal menu a discesa.
 . Nella scheda *BYOL*, espandere i dettagli di un sistema Cloud Volumes ONTAP.
 . Fare clic sul menu delle azioni accanto alla licenza di sistema e selezionare *Aggiorna licenza*.
 . Caricare il file di licenza (o i file se si dispone di una coppia ha).
@@ -154,7 +164,9 @@ Acquistare una licenza di capacità aggiuntiva contattandoci tramite l'icona del
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
-. Nella scheda *Cloud Volumes ONTAP*, selezionare *licenze basate su nodo* dall'elenco a discesa.
+. Selezionare la scheda *Panoramica*.
+. Nel riquadro Cloud Volumes ONTAP, selezionare *Visualizza*.
+. Selezionare *licenze basate su nodo* dal menu a discesa.
 . Nella scheda *BYOL*, espandere i dettagli di un sistema Cloud Volumes ONTAP.
 . Fare clic su *Add Capacity License*.
 . Inserire il numero di serie o caricare il file di licenza (o i file se si dispone di una coppia ha).
@@ -169,7 +181,9 @@ Se si estende il termine di una licenza con capacità extra, sarà necessario ag
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
-. Nella scheda *Cloud Volumes ONTAP*, selezionare *licenze basate su nodo* dall'elenco a discesa.
+. Selezionare la scheda *Panoramica*.
+. Nel riquadro Cloud Volumes ONTAP, selezionare *Visualizza*.
+. Selezionare *licenze basate su nodo* dal menu a discesa.
 . Nella scheda *BYOL*, espandere i dettagli di un sistema Cloud Volumes ONTAP.
 . Fare clic sul menu delle azioni accanto alla licenza di capacità e selezionare *Aggiorna licenza*.
 . Caricare il file di licenza (o i file se si dispone di una coppia ha).
@@ -184,7 +198,9 @@ Se una licenza di capacità extra è scaduta e non è più in uso, è possibile 
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
-. Nella scheda *Cloud Volumes ONTAP*, selezionare *licenze basate su nodo* dall'elenco a discesa.
+. Selezionare la scheda *Panoramica*.
+. Nel riquadro Cloud Volumes ONTAP, selezionare *Visualizza*.
+. Selezionare *licenze basate su nodo* dal menu a discesa.
 . Nella scheda *BYOL*, espandere i dettagli di un sistema Cloud Volumes ONTAP.
 . Fare clic sul menu delle azioni accanto alla licenza di capacità e selezionare *Remove License* (Rimuovi licenza).
 . Fare clic su *Rimuovi*.
@@ -204,7 +220,9 @@ Quando si converte una licenza di valutazione in una BYOL, BlueXP riavvia il sis
 
 .Fasi
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
-. Nella scheda *Cloud Volumes ONTAP*, selezionare *licenze basate su nodo* dall'elenco a discesa.
+. Selezionare la scheda *Panoramica*.
+. Nel riquadro Cloud Volumes ONTAP, selezionare *Visualizza*.
+. Selezionare *licenze basate su nodo* dal menu a discesa.
 . Fare clic su *valutazione*.
 . Nella tabella, fare clic su *Converti in licenza BYOL* per un sistema Cloud Volumes ONTAP.
 . Inserire il numero di serie o caricare il file di licenza.
@@ -231,3 +249,6 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["Sco
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deleting-working-env.html["Scopri come eliminare un ambiente di lavoro Cloud Volumes ONTAP"].
 
 
+
+.Link correlati
+collegamento: link:concept-licensing.html#end-of-availability-of-node-based-licenses["Fine della disponibilità delle licenze basate su nodi"] link:task-convert-node-capacity.html["Converti le licenze basate su nodi in base alla capacità"]
