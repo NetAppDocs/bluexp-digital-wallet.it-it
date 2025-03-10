@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-subscriptions.html 
-keywords: digital wallet, subscriptions, paygo subscriptions, contracts, annual contracts 
+keywords: digital wallet, subscriptions, paygo subscriptions, contracts, annual contracts, capacity 
 summary: 'Quando ti iscrivi a BlueXP dal marketplace di un provider cloud, verrai reindirizzato al sito Web BlueXP, dove dovrai salvare l"abbonamento e associarlo a account specifici. Dopo aver effettuato l"iscrizione, ogni abbonamento sarà disponibile per la gestione dal portafoglio digitale BlueXP.' 
 ---
 = Gestisci abbonamenti E contratti PAYGO
@@ -100,7 +100,7 @@ L'opzione Configura è disattivata se si è annullata la sottoscrizione a un abb
 . Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
 . Selezionare *Marketplace Subscriptions*.
 . Selezionare il menu delle azioni nella riga corrispondente all'abbonamento che si desidera configurare e scegliere *Configura*.
-. Nella finestra di dialogo _Configure_, scegliere una credenziale a cui configurare l'abbonamento. È possibile scegliere solo le credenziali associate al connettore attualmente selezionato. Se non viene visualizzata la credenziale che si desidera utilizzare, provare a passare a una vista diversa del connettore. ## questo è descritto con precisione? ##
+. Nella finestra di dialogo _Configure_, scegliere una credenziale a cui configurare l'abbonamento. È possibile scegliere solo le credenziali associate al connettore attualmente selezionato. Se non viene visualizzata la credenziale che si desidera utilizzare, provare a passare a una vista diversa del connettore.
 
 
 
@@ -129,7 +129,7 @@ NOTE: BlueXP  supporta la gestione delle identità e degli accessi (IAM) in mod
 
 == Consente di visualizzare le credenziali associate a un abbonamento
 
-##è possibile visualizzare le credenziali per un abbonamento specifico dalla pagina *Marketplace Subscriptions* nel portafoglio digitale. Ciò consente di verificare la modalità di fatturazione dell'abbonamento. Poiché le credenziali sono anche legate al connettore in uso, è necessario selezionare il connettore associato all'abbonamento che si desidera visualizzare.##
+È possibile visualizzare le credenziali per un abbonamento specifico dalla pagina *Marketplace Subscriptions* nel portafoglio digitale. Ciò consente di verificare la modalità di fatturazione dell'abbonamento. Poiché le credenziali sono anche legate al connettore in uso, è necessario selezionare il connettore associato all'abbonamento che si desidera visualizzare.
 
 
 NOTE: Utilizzare il menu a discesa connettore nella barra di navigazione superiore per cambiare i connettori se necessario.
@@ -181,4 +181,22 @@ video::373b96de-3691-4d84-b3f3-b05101161638[panopto]
 
 . Selezionare *Aggiungi abbonamento* per accedere al mercato del provider e completare i passaggi forniti.
 . Una volta finito nel marketplace del cloud provider, torna a BlueXP  per completare il processo.
+
+
+
+
+=== Rimuovere un abbonamento
+
+Quando si annulla l'iscrizione a un abbonamento BlueXP  nell'hyperscaler (AWS Google Cloud o Azure), il portafoglio digitale visualizza lo stato dell'abbonamento come *non abbonato*.
+
+Puoi rimuovere gli abbonamenti non sottoscritti dal portafoglio digitale in modo che non vengano più visualizzati.
+
+.Fasi
+. Dal menu di navigazione di BlueXP, selezionare *Governance > Digital wallet*.
+. Selezionare *Marketplace Subscriptions*.
+. Selezionare il menu delle azioni nella riga corrispondente all'abbonamento che si desidera rimuovere. Scegliere *Rimuovi*.
++
+È possibile rimuovere solo gli abbonamenti con stato *unsubscribed*.
+
+. Nella finestra di dialogo *Rimuovi abbonamento*, confermare che si desidera rimuovere l'abbonamento.
 
