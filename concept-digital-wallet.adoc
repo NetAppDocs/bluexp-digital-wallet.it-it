@@ -22,6 +22,9 @@ Il Digital Wallet di BlueXP  ti consente di gestire e monitorare le licenze Blu
 
 Le licenze e gli abbonamenti vengono visualizzati automaticamente nel portafoglio digitale quando l'account BlueXP  utilizzato per l'abbonamento è anche un account del sito di supporto NetApp. Se hai utilizzato un account BlueXP  non associato al tuo account NSS (NetApp Support Site), dovrai aggiungere e aggiornare manualmente le licenze e non vedrai che l'utilizzo, la capacità e altri dettagli cambiano.
 
+
+NOTE: Per visualizzare le informazioni relative all'abbonamento nel portafoglio digitale, è necessario installare un connettore. È inoltre necessario un connettore per visualizzare le licenze dei nodi per Cloud Volumes ONTAP.
+
 Nel frattempo, BlueXP interroga automaticamente il servizio di licenza di NetApp per ottenere informazioni sulle licenze associate al tuo account NetApp Support Site. In assenza di errori, BlueXP aggiunge automaticamente le licenze al portafoglio digitale.
 
 Se BlueXP  non è in grado di aggiungere la licenza, è necessario aggiungerla manualmente al portafoglio digitale. Ad esempio, se l'account utente BlueXP  non è associato all'account del sito di supporto NetApp, sarà necessario aggiungere le licenze.
